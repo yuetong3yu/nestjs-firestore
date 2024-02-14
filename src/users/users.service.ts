@@ -11,7 +11,7 @@ export class UsersService {
   }
 
   async findAll() {
-    return [];
+    return this.users;
   }
 
   async createUser({ name, age }: CreateUserDto) {
